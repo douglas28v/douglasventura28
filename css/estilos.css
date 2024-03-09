@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image:url(../img/onepiece.jpg);
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 50;
+    height: 1000px;
+}
+#Menu-bar {
+    background-color: rgb(233, 104, 222);
+    text-align: center;
+}
+#Menu-bar ul {
+    display: inline-flex;
+
+}
+#Menu-bar ul li {
+    padding: 15px;
+    white-space: 15px;
+    list-style-type: none;
+}
+#Menu-bar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#active, #Menu-bar ul li:hover {
+    background: ·11111122;
+    border-radius: 3px;
+}
+~#Sub-Menu {
+    display: none;
+}
+#Menu-bar ul li:hover #Sub-Menu {
+    display: block;
+    position: absolute;
+    background: #6c5b78;
+    margin-top: 14px;
+    margin-left: 15px;
+}
+#Menu-bar ul li:hover #Sub-Menu ul {
+    display: block;
+    margin: 10px;
+}
+#Menu-bar ul li:hover #Sub-Menu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+}
+#miicon{
+    margin-right: 8px;
+}
