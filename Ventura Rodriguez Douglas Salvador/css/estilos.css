@@ -1,0 +1,50 @@
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-item a {
+  color: #a4d6e2 !important;
+}
+.bg-ornflowerblue {
+  background-color: cornflowerblue;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+.circulo {
+  width: 100%;
+  border-radius: 100%;
+  border: solid 1px #000;
+  margin-bottom: 10px;
+}
+
+footer {
+  color: #fff !important;
+  text-align: center;
+  padding: 40px;
+  background-color: #9bd8e2;
+  background: linear-gradient(90deg, rgb(163, 232, 236), rgb(162, 199, 188));
+}
+footer .der {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.imagen-pagina{
+    text-align: center;
+}
+
+.imagenes-circulares{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.titulo-mision{
+    text-align: center;
+}
+
+.titulo-vision{
+    text-align: center;
+}
